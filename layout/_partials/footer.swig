@@ -8,6 +8,9 @@
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
 </div>
 
+<center>
+    <a href="mailto:bungderblog@163.com?subject=From GithubPages">联系我</a>
+</center>
 {% if theme.copyright %}
 <div class="powered-by">
   {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}
