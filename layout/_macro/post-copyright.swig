@@ -12,5 +12,8 @@
       <strong>{{ __('post.copyright.license_title') + __('symbol.colon') }} </strong>
       {{ __('post.copyright.license_content', theme.post_copyright.license_url, theme.post_copyright.license) }}
     </li>
+    <li class="post-copyright-date">
+        {{ post.date.format("YYYY-M-D HH:MM") }}
+    </li>
   </ul>
 {% endif %}
